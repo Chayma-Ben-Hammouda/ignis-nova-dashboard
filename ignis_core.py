@@ -49,9 +49,9 @@ PROFILES = {
 }
 
 STATUS = {
-    "archived": {"label": "In PSI", "color": "#69f0ae"},
-    "current": {"label": "Current · confirm PSI", "color": "#ffd54f"},
-    "planned": {"label": "Planned · not in PSI yet", "color": "#ef9a9a"},
+    "archived": {"label": "In PSI", "color": "#3fc79a"},
+    "current": {"label": "Current, PSI to confirm", "color": "#6da7ec"},
+    "planned": {"label": "Planned, not in PSI yet", "color": "#93a0b8"},
 }
 
 GRAVITY_LABEL = {
@@ -60,7 +60,7 @@ GRAVITY_LABEL = {
     "analog": "Microgravity + partial-g analog",
 }
 
-PILLAR_COLOR = {"Prevention": "#ff9100", "Detection": "#4fc3f7", "Suppression": "#69f0ae"}
+PILLAR_COLOR = {"Prevention": "#3987e5", "Detection": "#199e70", "Suppression": "#d95926"}
 
 # --------------------------------------------------------------------------------------
 # Curated records. s = (prevention, detection, suppression, highO2, modeling, crewEnv, partialG)
